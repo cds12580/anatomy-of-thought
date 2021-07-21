@@ -112,9 +112,9 @@ h4 {
 }
 
 .section {
-    padding: 0 1rem 0.5em;
+    padding: 0.5em 1rem;
     text-align: justify;
-    /* initial-letter: 3 3; not supported 2019-03 */
+    /* initial-letter: 3 3; */
 }
 
 .glossary {
@@ -203,6 +203,7 @@ figure.table figcaption b::before {
 .comparison-table {
     width: 80%;
     margin: auto;
+    padding: 0.5em 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
