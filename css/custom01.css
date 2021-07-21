@@ -1,0 +1,157 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(0.9rem + (100vw - 600px) / 800);
+  line-height: 1.2;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 12vh;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  border-style: solid;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+a:any-link { 
+  color: inherit;
+  text-decoration: none;
+}
+
+a:any-link:hover, a:any-link:active { 
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+blockquote {
+  margin: 1em 3rem;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 2rem 0 0 0;
+  padding: 0.5rem 2em;
+  min-width: 6em;
+}
+
+dl {
+  margin: 1em 3rem;
+}
+
+dd {
+  margin-left: 6rem;
+  margin-right: 3rem;
+}
+
+fieldset { 
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+figure {
+  margin: 0;
+}
+
+h1 { 
+  font-size: 2rem;
+  margin: 1em 0 1em;
+}
+
+h2 { 
+  font-size: 1.75rem;
+  margin: 1.25em 0 1em;
+}
+
+h3 { 
+  font-size: 1.5rem;
+  margin: 1.5em 0 1em;
+}
+
+h4 { 
+  font-size: 1.25rem;
+  margin: 0.75em 0 1em;
+}
+
+h5 { 
+  font-size: 1rem;
+  margin: 1em 0 1em;
+}
+
+h6 { 
+  font-size: 0.75rem;
+  margin: 1.25em 0 1em;
+}
+
+img {
+  border-style: none;
+}
+
+input {
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+  background-color: white;
+  border: 1px solid black;
+  margin: 2rem 0 0 0;
+  padding: 0.5rem 25em;
+  min-width: 6em;
+}
+
+legend { 
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+ol { 
+  list-style-type: decimal;
+  margin: 0;
+  padding-left: 2rem;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 0.5em;
+}
+
+menu {
+  list-style-type: none;
+  padding-left: 3rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 1em; /* can be used to control distance between cells */
+  border-color: black;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.5rem 0.25em;
+  resize: vertical;
+  min-height: 4rem;
+}
